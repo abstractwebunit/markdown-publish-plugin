@@ -1,0 +1,27 @@
+{
+  "name": "markdown-publish",
+  "version": "0.1.0",
+  "description": "Publish your Obsidian/Markdown vault as a static site in one chat, then let AI read your notes via MCP.",
+  "author": {
+    "name": "abstractwebunit"
+  },
+  "homepage": "https://abstractwebunit.github.io/markdown-publish-docs/",
+  "repository": "https://github.com/abstractwebunit/markdown-publish-plugin",
+  "keywords": [
+    "obsidian",
+    "markdown",
+    "static-site-generator",
+    "digital-garden",
+    "publish",
+    "mcp"
+  ],
+  "mcpServers": {
+    "markdown-publish": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/server.mjs"],
+      "env": {
+        "MARKDOWN_PUBLISH_SOURCE": "${MARKDOWN_PUBLISH_SOURCE}"
+      }
+    }
+  }
+}

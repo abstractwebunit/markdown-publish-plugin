@@ -1,0 +1,16 @@
+{
+  "name": "markdown-publish",
+  "version": "0.1.0",
+  "description": "Publish a Markdown/Obsidian vault as a static site, and read it back through AI.",
+  "repository": "https://github.com/abstractwebunit/markdown-publish-plugin",
+  "owner": {
+    "name": "abstractwebunit"
+  },
+  "plugins": [
+    {
+      "name": "markdown-publish",
+      "source": "./",
+      "description": "A /publish-vault skill that ships your vault to GitHub Pages, plus an MCP server that exposes your published notes to AI clients."
+    }
+  ]
+}
