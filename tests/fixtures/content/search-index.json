@@ -1,0 +1,22 @@
+{
+  "docs": [
+    {
+      "slug": "welcome",
+      "title": "Welcome",
+      "url": "/welcome",
+      "text": "Welcome to my vault. This note explains dopamine and habits and how rewards shape behavior."
+    },
+    {
+      "slug": "guides/getting-started",
+      "title": "Getting Started",
+      "url": "/guides/getting-started",
+      "text": "A getting started guide. Publish your notes and search them later."
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "url": "/faq",
+      "text": "Frequently asked questions about publishing and dopamine driven loops."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "welcome",
+  "title": "Welcome",
+  "html": "<p>Welcome</p>",
+  "markdown": "# Welcome\n\nWelcome to my vault. This note explains dopamine and habits.",
+  "backlinks": [{ "slug": "faq", "title": "FAQ" }]
+}
